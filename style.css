@@ -40,3 +40,9 @@ header a {
 header > nav a:hover {
     text-decoration: underline;
 }
+
+.bg-img {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
