@@ -84,3 +84,27 @@ main > h2 {
 .call-to-action a:hover {
     background-color: var(--color-secondary);
 }
+
+footer {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1.5rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+footer > nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.5rem;
+}
+
+footer a {
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
